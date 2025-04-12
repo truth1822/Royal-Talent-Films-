@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Talent Films</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #bfa046;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #3d3d3d;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 40px 20px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .service {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      padding: 20px;
+      margin: 10px;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #3d3d3d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Royal Talent Films</h1>
+  <p>Capturing timeless moments in every frame</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>Royal Talent Films is dedicated to creating powerful visual memories across weddings, Roora, corporate events, branding campaigns, and more. Our expert team brings every moment to life with elegance and precision.</p>
+</section>
+
+<section class="section" id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service"><h3>Weddings</h3><p>Capturing the magic of your special day.</p></div>
+    <div class="service"><h3>Roora</h3><p>Documenting traditional ceremonies with cultural authenticity.</p></div>
+    <div class="service"><h3>Product Photography</h3><p>High-quality visuals that elevate your products.</p></div>
+    <div class="service"><h3>Company Profiles</h3><p>Professional shoots that reflect your brand identity.</p></div>
+    <div class="service"><h3>Corporate</h3><p>Event and business photography that means business.</p></div>
+    <div class="service"><h3>Branding</h3><p>Visual storytelling that strengthens your brand.</p></div>
+    <div class="service"><h3>Models</h3><p>Portfolio shoots and promotional imagery for models.</p></div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2>Get in Touch</h2>
+  <p>Reach out to us via email or call to schedule a session or inquire about services.</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Royal Talent Films. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
